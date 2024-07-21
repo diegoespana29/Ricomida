@@ -1,0 +1,141 @@
+footer
+{
+    background-color: #373A3C;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    padding: 0; /* Eliminar relleno */
+    
+
+}
+footer h6
+{
+    margin: 30px 5px 5px 30px;
+}
+
+
+.column p {
+    margin: 0px , 0px, 0px, 0px !important;
+    line-height: 0.2;;
+}
+.imagen-inicio
+{
+    width: 70%;
+    float: right;
+}
+h6
+{
+    color: white;
+}
+.nav
+{
+    color: white !important;
+    background-color: #373A3C;
+    text-align: right  !important;
+    margin: 10px 5px 25px 5px;
+ 
+    
+}
+.suscripcion
+{
+    background-color: #DC3545;
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 30px 5px 80px;
+    padding: 0; /* Eliminar relleno */
+   
+
+}
+
+.suscripcion button
+{
+    color: white;
+    background-color: #DC3545;
+    margin: 30px 5px 80px;
+
+    width: 200px; /* Ancho del botón */
+    height: 40px; /* Alto del botón */
+    font-size: 18px; /* Tamaño del texto del botón */
+    border-color: white;
+    text-align: center; /* Centrar el texto */
+}
+.column2 button
+{
+   background-color: white;
+   border-color: #DDDDDD;
+}
+.moldear-car
+{
+    width: 18rem !important;
+    margin: 15px 10px 25px 5px;
+
+}
+.galeria
+{
+width: 200px;
+margin: 15px 10px 25px 5px;
+
+}
+
+.line {
+    border-top: 2px solid black; /* Crea una línea horizontal */
+    width: 100%; /* Ancho de la línea */
+    margin: 20px 0; /* Espaciado superior e inferior */
+}
+.recetas
+{
+    text-align: center;
+}
+.card
+{
+    margin: 15px 10px 25px 5px !important;
+}
+.container {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    padding: 10px;
+}
+.column2 {
+    flex: 50%;
+    padding: 10px;
+}
+
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.slider-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.slide {
+    min-width: 25%;
+    box-sizing: border-box;
+}
+.slide img {
+    width: 100%;
+}
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.slider-nav button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+  
+    
